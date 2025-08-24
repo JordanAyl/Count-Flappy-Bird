@@ -67,10 +67,12 @@ public class GamePanel extends JPanel
 
 	private void LoadImage()
 	{
+		System.out.println("BG URL = " + BirdImage.class.getResource("/packaging/Image/NewBackDrop.png"));
+		System.out.println("ROOT   = " + BirdImage.class.getResource("/"));
 		try
 		{
 			//reads an image from the file location provided and is referenced by img variable
-			img = ImageIO.read(new  File("/Users/jordan/eclipse-workspace/CountFlapula/Image/NewBackDrop.png"));
+			img = ImageIO.read(BirdImage.class.getResourceAsStream("/packaging/Image/NewBackDrop.png"));
 		}
 		catch(Exception e)
 		{
@@ -141,6 +143,7 @@ public class GamePanel extends JPanel
 			return false;
 		}
 	}
+	
 }
 
 

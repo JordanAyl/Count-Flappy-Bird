@@ -39,7 +39,7 @@ public class MenuPanel extends JPanel
 		try
 		{
 			//reads an image from the file location provided and is referenced by img variable
-			img= ImageIO.read(new File("/Users/jordan/eclipse-workspace/CountFlapula/Image/IntroPicture.png"));
+			img= ImageIO.read(BirdImage.class.getResourceAsStream("/packaging/Image/IntroPicture.png"));
 		}
 		catch(Exception ex)
 		{
