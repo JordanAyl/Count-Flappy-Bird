@@ -10,11 +10,8 @@ Pixel-art sprites + parallax background
 
 Scoring & high-score persistence
 
-Pause/Resume & Restart
+Soon to com (Pause/Resume & Restart)
 
-Basic SFX (optional)
-
-Clean, commented code aimed at learners
 
 🎮 **Gameplay & Controls**
 
