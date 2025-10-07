@@ -33,6 +33,6 @@ Java (JDK 17+ recommended; tested on 21)
 Swing/AWT (no external UI libs)
 
 
-🚀 Quick Start
+**🚀 Quick Start**
 
 Choose one path: plain Java or Maven.
