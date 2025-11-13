@@ -69,7 +69,7 @@ public class GamePanel extends JPanel
 		try
 		{
 			//reads an image from the file location provided and is referenced by img variable
-			img = ImageIO.read(new  File("/Users/jordan/eclipse-workspace/CountFlapula/Image/NewBackDrop.png"));
+			img = ImageIO.read(getClass().getResourceAsStream("/Image/NewBackDrop.png"));
 		}
 		catch(Exception e)
 		{

@@ -33,7 +33,7 @@ public class CaveSpikeImage
 		try
 		{
 			//reads an image from the file location provided and is referenced by img variable
-			img = ImageIO.read(new File("/Users/jordan/eclipse-workspace/CountFlapula/Image/CaveWall.png"));
+			img = ImageIO.read(getClass().getResourceAsStream("/Image/CaveWall.png"));
 		}
 		catch(Exception e)
 		{

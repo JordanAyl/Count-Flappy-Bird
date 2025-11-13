@@ -29,7 +29,7 @@ public class BirdImage
 		try
 		{
 			//reads an image from the file location provided and is referenced by img variable
-			img = ImageIO.read(new File("/Users/jordan/eclipse-workspace/CountFlapula/Image/FlapUp.png"));
+			img = ImageIO.read(getClass().getResourceAsStream("/Image/FlapUp.png"));
 		}
 		catch(Exception e)
 		{
@@ -44,7 +44,7 @@ public class BirdImage
 		try
 		{
 			//reads an image from the file location provided and is referenced by img variable
-			img= ImageIO.read(new File("/Users/jordan/eclipse-workspace/CountFlapula/Image/FlapDown.png"));
+			img = ImageIO.read(getClass().getResourceAsStream("/Image/FlapDown.png"));
 		}
 		catch(Exception ex)
 		{
@@ -60,7 +60,7 @@ public class BirdImage
 		try
 		{
 			//reads an image from the file location provided and is referenced by img variable
-			img= ImageIO.read(new File("/Users/jordan/eclipse-workspace/CountFlapula/Image/FlapUp.png"));
+			img = ImageIO.read(getClass().getResourceAsStream("/Image/FlapUp.png"));
 		}
 		catch(Exception ex)
 		{
